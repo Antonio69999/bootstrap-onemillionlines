@@ -1,4 +1,8 @@
 /* Vos customisations des classes de Bootstrap */
+    html {
+        font-family: Arvo;
+    }
+
     .nav-link, h1, h2, h3{
         font-family: Arvo;
     }
@@ -10,10 +14,15 @@
     #home {
         background-image: url(../images/hero-image.jpg);
         background-repeat: no-repeat;
-        font-size: large;
-        font-family: Arvo;
         background-size: cover;
         
+    }
+
+    hr {
+        width: 150px;
+        margin: 0 auto; 
+        margin-top: 5px; 
+        margin-bottom: 5px;
     }
 /* Responsive Styling */
 
