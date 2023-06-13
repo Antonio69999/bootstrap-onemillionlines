@@ -1,8 +1,20 @@
 /* Vos customisations des classes de Bootstrap */
+    .nav-link, h1, h2, h3{
+        font-family: Arvo;
+    }
+    
+    .navbar-dark{
+        background-color: black;
+    }
 
-
-
-
+    #home {
+        background-image: url(../images/hero-image.jpg);
+        background-repeat: no-repeat;
+        font-size: large;
+        font-family: Arvo;
+        background-size: cover;
+        
+    }
 /* Responsive Styling */
 
 @media (max-width: 1199px) {
