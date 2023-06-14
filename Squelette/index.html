@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>One Million Lines</title> 
+  <title>One Million Lines</title>
 
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Arvo">
   <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css">
@@ -46,14 +46,16 @@
   </nav>
   <div id="home">
     <div style="height: 550px;">
-      <div class="container d-flex flex-column align-items-center">  <!--Ajout de flex-column et de align items center pour empiler verticalment les éléments et centrer horizontalmeent-->
+      <div class="container d-flex flex-column align-items-center">
+        <!--Ajout de flex-column et de align items center pour empiler verticalment les éléments et centrer horizontalmeent-->
         <div class="text-center p-3">
           <h1>
             <p class="text-light">
               Our goal is to inspire Tallahassee to write 1,000,000 lines of code_
             </p>
           </h1>
-          <p class="text-light">All over the country, people are taking the <span class="font-weight-bold">HOUR OF CODE</span> challenge issued by <span class="font-weight-bold">CODE.org</span>.
+          <p class="text-light">All over the country, people are taking the <span class="font-weight-bold">HOUR OF
+              CODE</span> challenge issued by <span class="font-weight-bold">CODE.org</span>.
             Millions of lines of code are being written. In the capital of Florida, Tallahassee, the community is taking
             the challenge, and our goal is to write 1,000,000 lines of code_</p>
           <!-- Button trigger modal -->
@@ -61,10 +63,9 @@
             Learn more >>
           </button>
         </div>
-  
+
         <!-- Modal learn more -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-          aria-hidden="true">
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
@@ -77,32 +78,87 @@
             </div>
           </div>
         </div>
-  
+
         <img src="./images/code.png" alt="code_logo">
       </div>
     </div>
   </div><!-- /#home -->
 
   <div id="who">
-    <div class="container text-center">
-    <img src="./images/academy-brand-med.png" alt="academy-brand-med" class="mx-auto mt-3 mb-3"> <!--Centre et applique un espace en dessous et au dessus-->
-      <h3 class= "text-danger mb-0">WHO WE ARE</h3>  <!--Supprime les marges en bas-->
+    <div class="container text-center pb-5">
+      <img src="./images/academy-brand-med.png" alt="academy-brand-med" class="mx-auto mt-3 mb-3">
+      <!--Centre et applique un espace en dessous et au dessus-->
+      <h3 class="text-danger mb-0">WHO WE ARE</h3> <!--Supprime les marges en bas-->
       <hr class="border border-danger">
-      <p class="text-center"> We are <span class="text-danger">MASSIVE Academy</span>. We aim to improve education through both method - effective project-based learning - and material - by teaching skills that are applicable to improving your life today.</p>
+      <p> We are <span class="text-danger">MASSIVE Academy</span>. We aim to improve education through both method -
+        effective project-based learning - and material - by teaching skills that are applicable to improving your life
+        today.</p>
     </div>
   </div><!-- /#who -->
 
   <div id="get-involved">
-    <!-- Votre code ici -->
-  </div><!-- /#get-involved -->
-
+    <div class="container-fluid pb-5">
+      <div class="container text-center">
+        <h3 class="text-danger p-3">GET INVOLVED</h3>
+        <hr class="border border-danger hr2">
+        <div class="d-flex justify-content-between">
+          <div class="col-md-4">
+            <img class="svg_pencil" src="./fonts/fontawesome/svgs/solid/pen-square.svg" alt="svg_pen" width="100">
+            <h3 class="text-danger">STUDENTS</h3>
+            <p>Want to learn how to code ? Want to help us get to 1,000,000 lines ? Click ht ebutton below and we'lllet
+              you know how to get involved.</p>
+            <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Start Learning >>
+            </button>
+          </div>
+          <div class="col-md-4">
+            <img class="svg" src="./fonts/fontawesome/svgs/solid/user-alt.svg" alt="svg_user" width="100">
+            <h3 class="text-danger">EDUCATORS</h3>
+            <p>Want to bring this initiative to your school or institution ? Awesome click the button below and we'll
+              make it happen.</p>
+            <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Join the Initiative >>
+            </button>
+          </div>
+          <div class="col-md-4">
+            <img class="svg_money" src="./fonts/fontawesome/svgs/solid/money-bill-wave-alt.svg" alt="svg_money"
+              width="100">
+            <h3 class="text-danger">SPONSORS</h3>
+            <p>We love all the support we get to help host more events, and empower more lives with the knowledge of
+              coding. Click to get involved.</p>
+            <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Give Support >>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <footer>
-    <!-- Votre code ici -->
+    <div class="bg-danger">
+      <div class="container">
+        <div class="d-flex p-5 w-100">
+        </div>
+        <img class="footer_img" src="./images/one-million-bottom-brand.png" alt="footer_brand">
+      </div>
+    </div>
   </footer>
 
   <div id="back-to-top">
-    <!-- Votre code ici -->
-  </div><!-- /#back-to-top -->
+    <a href="#top" id="btn">🠕</a>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   <!-- Bootstrap core JavaScript
@@ -114,7 +170,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
     integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
     crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/smoothscroll.js"></script>
 </body>
